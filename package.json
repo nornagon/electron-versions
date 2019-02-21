@@ -1,12 +1,16 @@
 {
   "name": "electron-versions",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get version information about Electron releases.",
   "main": "index.js",
+  "bin": {
+    "electron-versions": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jeremy Apthorp <nornagon@nornagon.net>",
+  "repository": "https://github.com/nornagon/electron-versions",
   "license": "ISC",
   "dependencies": {
     "electron-download": "^4.1.1",
