@@ -1,5 +1,7 @@
 # electron-versions
 
+You probably want http://atom.io/download/electron/index.json instead of this.
+
 Get version information about Electron releases.
 
 electron-version downloads the latest versions of Electron and executes them,
